@@ -1,0 +1,7 @@
+.content_title{
+	width: 100%;
+	background-color: rgba(233,235,236,0.1);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}

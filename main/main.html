@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<title>故事</title>
+		<script type="text/javascript" src="../js/zoom/flexible.js"></script>	
+		<link href="../css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="../css/style.css" />
+		<link rel="stylesheet" href="../css/main.css" />
+	</head>
+	<body>
+		<div id="slider" class="mui-slider">
+				<div id="segmentedControl">
+				<div class="mui-slider-indicator mui-segmented-control mui-segmented-control-inverted">
+					<a class="mui-control-item" href="#item1mobile">
+				故事集
+			</a>
+					<a class="mui-control-item" href="#item2mobile">
+				森物语
+			</a>
+				</div>				
+			</div>
+				<div id="sliderProgressBar"></div>
+				<div id="mui-slider-group" class="mui-slider-group">
+					<div id="item1mobile" class="mui-slider-item mui-control-content mui-active">
+						<div id="scroll1" class="mui-scroll-wrapper">
+							<div class="mui-scroll">
+								
+								<div class="content_title content_title_1">
+									<div class="title_1_left">
+										优秀写手
+									</div>
+									<div class="title_1_right">
+										招募令
+									</div>
+								</div>
+								
+								<div class="content_list_1">
+									<div class="list_1_user">
+										<div class="title_1_avatar">
+											<img src="../images/main/header1.png" />
+										</div>
+										<div class="title_1_name">
+											<div>两个黄鹂鸣翠柳</div>
+											<div>昨天16:23</div>											
+										</div>
+									</div>
+									
+									<div class="list_1_bg">
+										<img src="../images/main/img2.png" />
+									</div>
+									<div class="list_1_title">
+										 太阳系的冲浪物语：人生在世，就是要学会随时随波主流！
+									</div>
+									<div class="list_1_content">
+										太阳系的冲浪物语：人生在世，就是要学会随时随波主流！太阳系的冲浪物语：人生在世，就是要学会随时随波主流！太阳系的冲浪物语：人生在世，就是要学会随时随波主流！
+									</div>
+								</div>
+								
+								<div class="content_list_1">
+									<div class="list_1_user">
+										<div class="title_1_avatar">
+											<img src="../images/main/header1.png" />
+										</div>
+										<div class="title_1_name">
+											<div>两个黄鹂鸣翠柳</div>
+											<div>昨天16:23</div>											
+										</div>
+									</div>
+									
+									<div class="list_2_bg">
+										<img src="../images/main/img2.png" />
+										<div class="list_2_play">
+											<img src="../images/main/music_pause.png" />
+										</div>			
+									</div>
+									
+									<div class="list_1_title">
+										 太阳系的冲浪物语：人生在世，就是要学会随时随波主流！
+									</div>
+									
+									<div class="list_1_content">
+										太阳系的冲浪物语：人生在世，就是要学会随时随波主流！太阳系的冲浪物语：人生在世，就是要学会随时随波主流！太阳系的冲浪物语：人生在世，就是要学会随时随波主流！
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="item2mobile" class="mui-slider-item mui-control-content">
+						<div id="scroll2" class="mui-scroll-wrapper">
+							<div class="mui-scroll">
+								<div class="content_title_2">
+									<div class="header_bg">
+										<div class="content_header_img">
+											<img src="../images/main/header2.png" />
+										</div>
+										<div class="content_header_text">
+											嗨，闲着呢?来说点什么吧~
+										</div>
+										<div class="content_header_icon">
+											<img src="../images/main/topic_write.png" />
+										</div>
+									</div>					
+								</div>
+								<div class="content_card">
+									<div class="card_header">
+										<div class="card_header_avatar">
+											<img src="../images/main/header2.png"  />
+										</div>
+										<div class="card_header_name">
+											<div class="card_header_nickname">逝去~</div>
+											<div class="card_header_time">昨天12:30</div>
+											<div></div>
+										</div>
+									</div>
+									<div class="card_content">
+										如果这个世界有一天被黑暗吞噬了，千万要记得还有驾驭马卡龙色系的软妹子和软仔，只要他们一刻没有停消就有机会炸开来。
+									</div>
+									<div class="card_image">
+										<img src="../images/index/img1.png" />
+										<img src="../images/main/img2.png" />
+										<img src="../images/index/img1.png" />
+										<img src="../images/main/img2.png" />
+										<img src="../images/index/img1.png" />
+										<img src="../images/main/img2.png" />
+									</div>
+									<div class="card_attribute">
+										<div class="attribute_watch">
+											<img align="center" src="../images/main/look_icon.png" /><span>156</pan>
+										</div>
+										<div class="attribute_praise">
+											<img align="center" src="../images/main/zan_icon.png" /><span>23</pan>
+										</div>
+										<div class="attribute_commit">
+											<img align="center" src="../images/main/comment_icon.png" /><span>8</pan>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<script type="text/javascript" src="../js/mui.min.js" ></script>
+			<script>
+				//DIV局部滚动
+			mui('.mui-scroll-wrapper').scroll({
+				indicators: true //是否显示滚动条
+			});
+			
+			//修改框架高度
+			var dom = document.getElementsByClassName('mui-control-content');
+			var segmentedControl = document.getElementById("segmentedControl").offsetHeight;
+			var ViewHeight = window.innerHeight;
+			var muislidergroup = document.getElementById("mui-slider-group");
+			muislidergroup.style.height = ViewHeight-segmentedControl-5+'px';;
+			for(var i=0,len=dom.length; i<len; i++){
+			    dom[i].style.height = ViewHeight-segmentedControl-4+'px';
+			}
+			var html2 = '<div class="one_box"><div class="box_head"><div class="one_left"><div class="left_avatar"><img src="../images/main/teach_stu_head.png"/></div><div class="left_text"><div class="text_detail"><span class="gender_icon">王小明<img src="../images/student/female.png" /></span><span class="class_state">上课中</span></div><div class="text_detail text_detail_num"><span>待上课时长 <span class="class_time">3600分钟</span></span><span>总缴费 <span class="text_detail_num_money">6000.0学币</span></span></div></div></div></div></div>';
+			var item2 = document.getElementById('item2mobile');
+			var sliderProgressBar = document.getElementById("sliderProgressBar");
+			document.getElementById('slider').addEventListener('slide', function(e) {
+				if(e.detail.slideNumber === 0){
+					sliderProgressBar.style.marginLeft='17.5%';
+				}else if(e.detail.slideNumber === 1) {
+					sliderProgressBar.style.marginLeft='68%';
+					if (item2.querySelector('.mui-loading')) {
+						setTimeout(function(){
+							item2.querySelector('.mui-scroll').innerHTML = html2;
+						}, 500);
+					}
+				}
+			});
+			</script>
+	</body>
+</html>

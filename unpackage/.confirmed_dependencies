@@ -1,0 +1,25 @@
+{
+	"index.html": {
+		"resources": [
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/mui.min.css",
+			"js/update.js"
+		],
+		"refer": [
+			"index-menu.html",
+			"examples/guide.html",
+			"examples/best-practices/list-to-detail/listview.html"
+		]
+	},
+	"index-menu.html": {
+		"resources": [
+			"css/mui.min.css"
+		]
+	},
+	"examples/best-practices/list-to-detail/listview.html": {
+		"refer": [
+			"examples/best-practices/list-to-detail/detail.html"
+		]
+	}
+}
